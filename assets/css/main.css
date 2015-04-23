@@ -1,0 +1,248 @@
+/* line 1, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/reset.sass */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+  /* line 7, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/reset.sass */
+  * p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem; }
+  /* line 11, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/reset.sass */
+  * h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem; }
+
+/* line 2, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.margin, .main-container, .bottom-media, .bottom-touch, footer .footer {
+  margin-left: 15%;
+  margin-right: 15%; }
+
+/* line 10, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+header {
+  display: inline-block;
+  width: 100%;
+  height: 9rem;
+  border-bottom: 1px solid #CFD8DC;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+/* line 16, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.top-menu-contact {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-top: 4px solid #8BC34A;
+  height: 2.9rem; }
+  /* line 21, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .top-menu-contact p {
+    line-height: 2.9rem;
+    margin-right: 21%;
+    font-size: 13px;
+    color: #90A4AE; }
+
+/* line 26, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.bottom-menu {
+  width: 100%;
+  height: 4.1rem;
+  border-top: 1px solid #CFD8DC;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 31, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-menu .bottom-menu-logo {
+    margin-top: 1.8rem;
+    margin-left: 21%; }
+  /* line 34, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-menu .bottom-menu-nav {
+    margin-left: 11%; }
+    /* line 36, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-menu .bottom-menu-nav nav {
+      box-sizing: border-box;
+      postion: relative; }
+      /* line 40, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+      .bottom-menu .bottom-menu-nav nav ul {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 42, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+        .bottom-menu .bottom-menu-nav nav ul li {
+          list-style-type: none;
+          padding-left: 1rem;
+          padding-right: 1rem; }
+          /* line 46, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+          .bottom-menu .bottom-menu-nav nav ul li a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            height: 1.8rem;
+            width: 4.1rem;
+            padding-top: 38px;
+            text-align: center; }
+          /* line 54, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+          .bottom-menu .bottom-menu-nav nav ul li a:hover {
+            border-top: 3px solid #8BC34A;
+            padding-top: 35px;
+            color: #8BC34A; }
+
+/* line 59, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+#img {
+  height: 500px;
+  overflow: hidden; }
+  /* line 62, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  #img img {
+    width: 100%; }
+
+/* line 64, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.main-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3%; }
+  /* line 69, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .main-container .what-we-do {
+    width: 30.33%;
+    padding: 3%; }
+    /* line 72, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .main-container .what-we-do img {
+      margin-left: 40%;
+      margin-bottom: 5%;
+      height: 3.5rem; }
+  /* line 76, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .main-container .who-we-are {
+    width: 30.33%;
+    padding: 3%; }
+    /* line 79, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .main-container .who-we-are img {
+      margin-left: 40%;
+      margin-bottom: 5%;
+      height: 3.5rem; }
+  /* line 83, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .main-container .stories-of-us {
+    width: 30.33%;
+    padding: 3%; }
+    /* line 86, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .main-container .stories-of-us img {
+      margin-left: 40%;
+      margin-bottom: 5%;
+      height: 3.5rem; }
+
+/* line 90, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.bottom-media {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px dashed #000;
+  border-bottom: 1px dashed #000; }
+  /* line 98, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-media .bottom-media-video {
+    padding: 25px 0 25px 25px;
+    width: 45%; }
+  /* line 101, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-media .bottom-media-info {
+    width: 50%;
+    padding-right: 25px; }
+    /* line 104, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-media .bottom-media-info h2 {
+      padding-bottom: 25px;
+      padding-top: 25px;
+      font-size: 18px; }
+    /* line 108, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-media .bottom-media-info p {
+      color: #CFD8DC;
+      line-height: 1.4rem; }
+      /* line 112, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+      .bottom-media .bottom-media-info p span {
+        color: #546E7A;
+        font-weight: 700; }
+    /* line 115, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-media .bottom-media-info .sig {
+      padding-left: 10px; }
+    /* line 117, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-media .bottom-media-info img {
+      padding-top: 15px;
+      padding-left: 6px; }
+
+/* line 121, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+.bottom-touch {
+  margin-top: 45px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
+  background-color: #CFD8DC;
+  border-top: 4px solid #8BC34A;
+  margin-bottom: 40px; }
+  /* line 130, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-touch .bottom-touch-info {
+    padding: 40px; }
+    /* line 132, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-touch .bottom-touch-info h3 {
+      font-weight: 400; }
+    /* line 134, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-touch .bottom-touch-info p {
+      color: #78909C; }
+  /* line 136, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  .bottom-touch .bottom-touch-button {
+    padding: 50px;
+    margin-right: 15px; }
+    /* line 139, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-touch .bottom-touch-button button {
+      color: #fff;
+      text-transform: uppercase;
+      width: 8rem;
+      height: 2.5rem;
+      background-color: #8BC34A;
+      border: none; }
+    /* line 146, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    .bottom-touch .bottom-touch-button button:hover {
+      background-color: #73AD45; }
+
+/* line 148, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 10px solid #E8EAF6;
+  height: 300px;
+  background-color: #1A237E; }
+  /* line 153, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+  footer .footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 15px;
+    color: #fff; }
+    /* line 159, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    footer .footer .footer-work {
+      width: 30.33%; }
+      /* line 161, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+      footer .footer .footer-work p {
+        font-size: 15px; }
+    /* line 163, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    footer .footer .footer-highlights {
+      width: 30.33%; }
+      /* line 166, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+      footer .footer .footer-highlights ul li {
+        list-style-type: none;
+        border-bottom: 2px solid #fff; }
+        /* line 169, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+        footer .footer .footer-highlights ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 13px; }
+    /* line 173, C:/Users/Gentry/Desktop/gravitypayments/assets/sass/main.sass */
+    footer .footer .footer-touch {
+      width: 30.33%; }

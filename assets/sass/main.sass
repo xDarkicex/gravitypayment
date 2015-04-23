@@ -1,0 +1,175 @@
+@import "reset.sass"
+.margin
+	margin-left:15%
+	margin-right:15%
+
+$flex:flex
+$dottedborder: 1px dashed #000
+$lightborder: 1px solid #CFD8DC
+
+header
+	display: inline-block
+	width:100%
+	height:9rem
+	border-bottom:$lightborder
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2)
+.top-menu-contact
+	display:$flex
+	justify-content:flex-end
+	border-top:4px solid #8BC34A
+	height:2.9rem
+	p 
+		line-height: 2.9rem
+		margin-right: 21%
+		font-size: 13px
+		color:#90A4AE
+.bottom-menu
+	width:100%
+	height:4.1rem
+	border-top:$lightborder
+	display:$flex 
+	.bottom-menu-logo
+		margin-top: 1.8rem
+		margin-left: 21%
+	.bottom-menu-nav
+		margin-left: 11%
+		nav 
+			box-sizing:border-box
+			postion:relative
+			
+			ul 
+				display: $flex
+				li 
+					list-style-type:none
+					padding-left: 1rem
+					padding-right:1rem
+					a 
+						text-decoration: none
+						color:#000
+						display: block 
+						height: 1.8rem
+						width: 4.1rem
+						padding-top:38px
+						text-align: center
+					a:hover
+						border-top:3px solid #8BC34A
+						padding-top:35px
+						color:#8BC34A
+
+#img
+	height:500px
+	overflow: hidden
+	img
+		width:100%
+.main-container
+	
+	display:$flex 
+	margin-top:3%
+	@extend .margin 
+	.what-we-do
+		width:30.33%
+		padding:3%
+		img
+			margin-left:40%
+			margin-bottom: 5%
+			height: 3.5rem
+	.who-we-are
+		width: 30.33%
+		padding:3%
+		img
+			margin-left:40%
+			margin-bottom: 5%
+			height: 3.5rem
+	.stories-of-us
+		width: 30.33%
+		padding:3%
+		img
+			margin-left:40%
+			margin-bottom: 5%
+			height: 3.5rem
+.bottom-media
+	display:$flex 
+	@extend .margin 
+	height:400px
+	padding-top:20px
+	padding-bottom:20px
+	border-top:$dottedborder
+	border-bottom:$dottedborder
+	.bottom-media-video
+		padding:25px 0 25px 25px
+		width:45%
+	.bottom-media-info
+		width:50%
+		padding-right:25px
+		h2
+			padding-bottom:25px
+			padding-top:25px
+			font-size: 18px
+		p 
+			color:#CFD8DC
+			line-height: 1.4rem
+
+			span 
+				color:#546E7A
+				font-weight: 700
+		.sig 
+			padding-left:10px
+		img
+			padding-top:15px
+			padding-left:6px
+
+.bottom-touch
+	margin-top:45px
+	display:$flex
+	@extend .margin 
+	justify-content:space-between
+	height:150px
+	background-color:#CFD8DC
+	border-top:4px solid #8BC34A
+	margin-bottom: 40px
+	.bottom-touch-info
+		padding:40px
+		h3
+			font-weight: 400
+		p
+			color:#78909C
+	.bottom-touch-button
+		padding:50px
+		margin-right: 15px
+		button 
+			color:#fff
+			text-transform: uppercase
+			width: 8rem
+			height: 2.5rem
+			background-color:#8BC34A
+			border:none
+		button:hover
+			background-color:#73AD45
+footer
+	display:$flex 
+	border-top:10px solid #E8EAF6
+	height:300px
+	background-color:#1A237E
+	.footer
+		display: $flex
+		@extend .margin 
+		justify-content:space-between
+		margin-top: 15px
+		color: #fff
+		.footer-work
+			width:30.33%
+			p 
+				font-size: 15px
+		.footer-highlights
+			width: 30.33%
+			ul
+				li 
+					list-style-type:none
+					border-bottom:2px solid #fff
+					a 
+						text-decoration:none
+						color: #fff
+						font-size: 13px
+		.footer-touch
+			width: 30.33%
+
